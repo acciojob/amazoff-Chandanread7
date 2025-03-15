@@ -1,7 +1,10 @@
-package com.driver;
+package com.driver.service;
 
 import java.util.*;
 
+import com.driver.model.DeliveryPartner;
+import com.driver.model.Order;
+import com.driver.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
